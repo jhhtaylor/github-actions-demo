@@ -4,7 +4,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: MyDotNetApp\Dockerfile
     ports:
       - "8000:8080" # Maps port 8000 on the host to port 8080 in the backend container
     environment:
