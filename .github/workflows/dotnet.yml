@@ -35,5 +35,6 @@ jobs:
         with:
           image: jhhtaylor/demo-app
           registry: docker.io
+          dockerfile: MyDotNetApp\Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
