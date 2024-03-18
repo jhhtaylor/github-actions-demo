@@ -33,7 +33,6 @@ jobs:
           tags: backend-${{ github.sha }}
           registry: docker.io
           dockerfile: MyDotNetApp/Dockerfile
-          context: MyDotNetApp
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
@@ -50,6 +49,5 @@ jobs:
           tags: frontend-${{ github.sha }}
           registry: docker.io
           dockerfile: MyAngularApp/Dockerfile
-          context: MyAngularApp
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
