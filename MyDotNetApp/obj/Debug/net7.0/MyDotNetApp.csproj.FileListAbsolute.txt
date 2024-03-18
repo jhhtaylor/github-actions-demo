@@ -1,0 +1,15 @@
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\bin\Debug\net7.0\MyDotNetApp.exe
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\bin\Debug\net7.0\MyDotNetApp.deps.json
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\bin\Debug\net7.0\MyDotNetApp.runtimeconfig.json
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\bin\Debug\net7.0\MyDotNetApp.dll
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\bin\Debug\net7.0\MyDotNetApp.pdb
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.csproj.AssemblyReference.cache
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.AssemblyInfoInputs.cache
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.AssemblyInfo.cs
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.csproj.CoreCompileInputs.cache
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.dll
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\refint\MyDotNetApp.dll
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.pdb
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\MyDotNetApp.genruntimeconfig.cache
+C:\Users\jon.taylor\source\repos\github-actions-demo\MyDotNetApp\obj\Debug\net7.0\ref\MyDotNetApp.dll
