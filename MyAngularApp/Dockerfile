@@ -1,5 +1,5 @@
 # Stage 1: Build the Angular application
-FROM node:16-alpine as build
+FROM node:18-alpine as build
 WORKDIR /app
 COPY MyAngularApp/package.json MyAngularApp/package-lock.json ./
 RUN npm install
