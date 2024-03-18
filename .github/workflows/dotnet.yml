@@ -26,11 +26,14 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal MyDotNetApp/MyDotNetApp.csproj
 
+      - name: Set short SHA
+        run: echo "SHORT_SHA=$(echo $GITHUB_SHA | cut -c1-7)" >> $GITHUB_ENV
+
       - name: Build and Push .NET Docker Image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
           image: jhhtaylor/demo-app
-          tags: backend-${{ github.run_id }}
+          tags: backend-${{ env.SHORT_SHA }}
           registry: docker.io
           dockerfile: MyDotNetApp/Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
@@ -42,11 +45,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Set short SHA
+        run: echo "SHORT_SHA=$(echo $GITHUB_SHA | cut -c1-7)" >> $GITHUB_ENV
+
       - name: Build and Push Angular Docker Image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
           image: jhhtaylor/demo-app
-          tags: frontend-${{ github.run_id }}
+          tags: frontend-${{ env.SHORT_SHA }}
           registry: docker.io
           dockerfile: MyAngularApp/Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
