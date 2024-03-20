@@ -7,7 +7,7 @@
 
 **Part 1**
 
-![image](https://github.com/jhhtaylor/github-actions-demo/assets/29454433/60882b57-239b-4f8e-8b17-a337c7400854)
+![image](https://github.com/jhhtaylor/github-actions-demo/assets/29454433/cb197885-9853-4cf6-96d3-5fab6dc9af08)
 
 **Part 2**
 
